@@ -1,0 +1,156 @@
+.brandimg {
+	width: auto;
+	height: 40px;
+}
+
+.titleMain {
+	color: #660000;
+	font-family: 'Bad Script', cursive;
+}
+
+.blockThings {
+	text-align: center;
+	color: #660000;
+}
+
+.blockThings > h4{
+	margin-bottom: 0px;
+}
+
+.blockThingsText {
+	text-align: center;
+}
+
+.blockDress {
+	text-align: center;
+	padding-bottom: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+
+}
+
+.blockDress:hover {
+	box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.blockDress > img {
+	width: 100%;
+	height: auto;
+}
+
+.blockDress > p {
+	margin: 15px;
+}
+
+.btn-dress {
+	float: right;
+	margin-right: 25px;
+}
+
+.btn-showAll {
+	text-align: center;
+	margin-top: 25px;
+}
+
+.lastBlock {
+	padding-top: 80px;
+}
+
+.atelier {
+}
+
+.atelier > h4 {
+	text-align: center;
+	color: #660000;
+	margin: 0px 0px;
+} 
+
+.atelier > p {
+	text-align: justify;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.atelierInner {
+	text-align: right;
+	margin-top: 30px;
+}
+
+.atelierInner > button{
+	font-size: 12px;
+}
+
+.collage > img {
+	padding-top: 40px;
+	width: 100%;
+	height: auto;
+}
+
+.carDiv {
+	margin: 0px 15px;
+}
+
+.carDiv > img {
+	width: 100%;
+	height: auto;
+	opacity: .7;
+}
+
+.carDiv > img:hover {
+	opacity: 1;
+}
+
+.btn1 {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;  
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+   
+.btn1:hover {
+  background: #660000;
+  color: #fff;
+}
+
+.block1 {
+	background-image: url(../img/back2.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.block3 {
+	margin-top: 40px;
+}
+
+.contact {
+	width: 150px;
+	text-align: right;
+	font-size: 10px;
+}
+
+.rating {
+	  unicode-bidi: bidi-override;
+	  direction: rtl;
+	  float: left;
+	  font-size: 14px;
+	  margin-left: 10px;
+	  margin-top: 7px;
+	  color: #660000;
+}
+.rating > span {
+	  display: inline-block;
+	  position: relative;
+	  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+	   content: "\2605";
+	   position: absolute;
+}
